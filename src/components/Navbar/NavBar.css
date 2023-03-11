@@ -1,0 +1,7 @@
+.NavBar{
+    display: flex;
+    text-align: justify;
+}
+.NavBar .Logo{
+    margin-right: 100px;
+}

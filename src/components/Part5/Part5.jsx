@@ -1,9 +1,9 @@
 import React from "react";
 import './Part5.css'
 
-function Part5(){
+function Part5() {
     return <div className="Part1">
-        <p>Part5</p>
+        <p>Program Syllabus</p>
     </div>
 }
 

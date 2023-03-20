@@ -1,0 +1,56 @@
+*{
+    background-color: #111111;
+    text-decoration: none;
+}
+
+.NavBar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Logo{
+    display: flex;
+    margin-right: 250px;
+    text-align: center;
+}
+
+.link{
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 28px;
+    margin-right: 250px;
+}
+
+.bar{
+    color: rgb(147, 155, 163);
+    
+}
+
+.links{
+    font-size: 18px;
+    margin-right: 40px;
+    color: rgb(147, 155, 163);
+    font-family: 'Rajdhani', sans-serif;
+}
+.links:hover{
+    color: rgb(175, 186, 196);
+}
+
+.lang{
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 28px;
+}
+
+.compName{
+    font-size: 26px;
+    color: aliceblue;
+    font-family: 'Rajdhani', sans-serif;
+}
+.bi-globe{
+    margin: 5px;
+}

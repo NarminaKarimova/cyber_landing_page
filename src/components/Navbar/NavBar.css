@@ -1,9 +1,0 @@
-.NavBar {
-    display: flex;
-    text-align: justify;
-    color: rgb(1, 202, 1);
-}
-
-.NavBar .Logo {
-    margin-right: 100px;
-}

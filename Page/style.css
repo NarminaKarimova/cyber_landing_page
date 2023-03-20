@@ -1,6 +1,11 @@
 * {
     background-color: #111111;
     text-decoration: none;
+    color: white;    
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 h1 {
@@ -16,23 +21,25 @@ p {
     color: white;
 }
 
-.adv {
-    display: inline-block;
-    margin: 200px;
-
-}
+/* Navbar Begins */
 
 .NavBar {
     margin-top: 30px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
+    
+    justify-content: space-evenly;
+}
+
+#about{
+    scroll-behavior: smooth;
 }
 
 .Logo {
     display: flex;
-    margin-right: 250px;
     text-align: center;
+    width: 18%;
 }
 
 .link {
@@ -40,7 +47,7 @@ p {
     text-align: center;
     position: relative;
     top: 28px;
-    margin-right: 250px;
+    
 }
 
 .bar {
@@ -53,9 +60,22 @@ p {
     margin-right: 40px;
     color: rgb(147, 155, 163);
     font-family: 'Rajdhani', sans-serif;
+    
+    
 }
 
 .links:hover {
+    color: rgb(175, 186, 196);
+}
+
+.langs {
+    font-size: 18px;
+    color: rgb(147, 155, 163);
+    font-family: 'Rajdhani', sans-serif;
+    width: 30px;
+}
+
+.langs:hover {
     color: rgb(175, 186, 196);
 }
 
@@ -74,4 +94,67 @@ p {
 
 .bi-globe {
     margin: 5px;
+}
+
+/* NavBar Ends */
+
+/* First Begins */
+
+.first{
+    display: flex;
+}
+
+.right{
+    width: 50%;
+}
+.left{
+    width: 50%;
+    margin-left: 40px;
+}
+.name{
+    font-size: 50px;
+    margin-bottom: 0px;
+    color: aliceblue;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.course{
+    font-size: 25px;
+    color: #64F787;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+ul {
+    list-style: none;
+    font-family: 'Rajdhani', sans-serif;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: #64F787;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  .date{
+    display: flex;
+  }
+
+  .date-inf{
+    font-family: 'Rajdhani', sans-serif;
+    margin-right: 50px;
+  }
+
+  .date-green{
+    color: #64F787;
+  }
+
+/* First Ends */
+
+.adv {
+    display: inline-block;
+    margin: 200px;
+
 }

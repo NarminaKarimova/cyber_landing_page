@@ -190,3 +190,49 @@ ul li::before {
     margin: 200px;
 
 }
+
+/* MOdules */
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.summary {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.details {
+    display: none;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.expand-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.expand-btn:focus {
+    outline: none;
+}
+
+.details.show {
+    display: block;
+}

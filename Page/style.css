@@ -198,57 +198,41 @@ ul li::before {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #1F1F1F;
-    border-radius: 20px;
+    border: 1px solid #ccc;
 }
 
-.module{
-    background-color: #1F1F1F;
-}
-
-h2.module {
+h2 {
     margin-top: 0;
-    background-color: #1F1F1F;
-    font-family: 'Rajdhani', sans-serif;
-
 }
 
 .summary {
     font-size: 18px;
     line-height: 1.5;
-    margin-left: 23px;
     margin-bottom: 20px;
-    background-color: #1F1F1F;
-
 }
 
 .details {
     display: none;
     font-size: 16px;
     line-height: 1.5;
-    margin-left: 23px;
     margin-bottom: 20px;
-    background-color: #1F1F1F;
 }
-
 
 .expand-btn {
     display: block;
     margin: 0 auto;
     padding: 10px 20px;
     border: none;
-    background-color: #64F787;
-    color: #000000;
+    background-color: #007bff;
+    color: #fff;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
 }
 
 .expand-btn:focus {
     outline: none;
 }
 
-.details.details.show {
+.details.show {
     display: block;
-    background-color: #1F1F1F;
 }

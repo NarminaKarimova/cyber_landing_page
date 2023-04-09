@@ -25,6 +25,10 @@ p {
     font-family: 'Rajdhani', sans-serif;
 }
 
+body{
+    margin-bottom: 200px;
+}
+
 /* Navbar Begins */
 
 .NavBar {
@@ -169,13 +173,15 @@ ul li::before {
 }
 
 .about {
+    display: flex;
     background-color: #1F1F1F;
+    align-items: center;
     border-style: solid;
     border-width: 1px;
     border-color: #64F787;
-    border-radius: 5px;
+    border-radius: 20px;
     width: 860px;
-    height: 155px;
+    height: 200px;
     padding: 10px;
     box-shadow: 20px 20px 10px #2d5436;
 }
@@ -297,6 +303,71 @@ i {
 
 /* Modules End*/
 
+/* Instructors Begin */
+
+.instructors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.instr{
+    display: flex;
+    justify-content: center;
+
+}
+
+.firstInst{
+    display: flex;
+    background-color: #1F1F1F;
+    margin: 100px 50px ;
+    width: 600px;
+    height: 320px;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #64F787;
+    border-radius: 30px;
+    box-shadow: -10px -10px 30px #2d5436, 10px 10px 30px #2d5436;
+}
+
+.instructorProfile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #1F1F1F;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.instrInf{
+    background-color: #1F1F1F;
+    border-radius: 30px;
+}
+
+.instName{
+    background-color: #1F1F1F;
+    font-family: 'Rajdhani', sans-serif;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.instPos{
+    background-color: #1F1F1F;
+    font-family: 'Rajdhani', sans-serif;
+    color: #64F787;
+}
+.instInfo{
+    background-color: #1F1F1F;
+    font-family: 'Rajdhani', sans-serif;
+    border-radius: 30px;
+}
+
+
+/* Instructors End */
+
 
 /* Price Begins */
 
@@ -312,7 +383,7 @@ i {
     border-style: solid;
     border-width: 1px;
     border-color: #64F787;
-    border-radius: 5px;
+    border-radius: 35px;
     width: 400px;
     height: 400px;
     padding: 10px;
@@ -337,6 +408,17 @@ i {
 
 .pricenum {
     font-size: 50px;
+}
+
+.priceButton{
+    display: flex;
+    justify-content: center;
+    background-color: #1F1F1F;
+}
+
+.buttonText{
+        font-family: 'Rajdhani', sans-serif;
+
 }
 
 .register {

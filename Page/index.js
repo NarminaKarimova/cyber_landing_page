@@ -8,7 +8,7 @@ modules.forEach((module) => {
 
     expandBtn.addEventListener('click', () => {
         details.classList.toggle('show');
-        arrowImg.src = details.classList.contains('show') ? '/Resources/uparrow.png' : '/Resources/downarrow.png';
+        arrowImg.src = details.classList.contains('show') ? 'Resources/uparrow.png' : 'Resources/downarrow.png';
         arrowImg.alt = details.classList.contains('show') ? '&uarr;' : '&darr;';
     });
 });
